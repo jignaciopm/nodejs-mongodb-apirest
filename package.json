@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-mongodb-apirest",
+  "version": "1.0.0",
+  "description": "Simple ApiRest in Node.js with Express and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jignaciopm/nodejs-mongodb-apirest.git"
+  },
+  "author": "Jose Ignacio Palma Misle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jignaciopm/nodejs-mongodb-apirest/issues"
+  },
+  "homepage": "https://github.com/jignaciopm/nodejs-mongodb-apirest#readme"
+}
