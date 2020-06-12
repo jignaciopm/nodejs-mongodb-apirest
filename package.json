@@ -4,7 +4,9 @@
   "description": "Simple ApiRest in Node.js with Express and MongoDB.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
@@ -17,13 +19,15 @@
   },
   "homepage": "https://github.com/jignaciopm/nodejs-mongodb-apirest#readme",
   "dependencies": {
-    "@babel/node": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
     "express": "^4.17.1",
     "mongodb": "^3.5.9"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.10.2"
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
   }
 }
